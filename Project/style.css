@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+/* Header Css Start  */
+*{}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    margin-left: 80px;
+}
+.logo img{
+    margin-top: 12px;
+    height: 60px;
+    width: 60px;  
+}
+.logoname{
+    line-height: 80px;
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+    font-weight: bolder;  
+}
+.navbar{
+    height: 80px;
+    width: 600px;
+    margin-left: 250px;
+  
+}
+.navul{
+    height: 80px;
+    display: flex;
+    line-height: 80px;
+    margin-left: 0px;
+}
+.navli{
+    list-style: none;
+    padding: 0px 50px;
+}
+.navli:hover{
+    background-color:rgba(255, 68, 0, 0.712);
+}
+.navli a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    line-height: 90px;  
+}
+.icon i{
+    margin-left: 0px; 
+    padding: 20px; 
+}
+.icon:hover{
+    background-color: rgba(255, 68, 0, 0.712);
+}
+.buttan{
+    line-height: 80px;
+    margin-left: 0px;
+}
+.buttan button{
+    height: 30px;
+    width: 110px;
+    background-color: rgba(255, 68, 0, 0.712); 
+    border: none;
+    margin-left: 80px;
+}
+/* Fruit Shop Div Start */
+.fruit-main{
+    height: 600px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+.fruit-content{
+    width: 40%;
+}
+.f-heading{
+    font-size: 65px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.f-pera{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.f-buttan{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.s-btn{
+    height: 50px;
+    width: 180px;
+    background-color:rgba(255, 68, 0, 0.712);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.c-btn{
+    height: 50px;
+    width: 180px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.img-main{
+    width: 60%; 
+}
+.slide-img img{
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+/* Our Services */
+.main-services{
+    width: 100%;
+    background-color: white;
+}
+.s-content{
+    height: 100px;
+}
+.s-heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.s-pera{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.box-main{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box-one{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.box-one img{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.orange-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(255, 68, 0) ;
+}
+.orange-pera{
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.box-two{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.box-two img{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.grapes-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(255, 68, 0) ;
+}
+.grapes-pera{
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.box-three{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.box-three img{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.gauva-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(255, 68, 0) ;
+}
+.gauva-pera{
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.s-button{
+   margin-left: 580px;
+   margin-top: 100px;
+}
+.r-buttan{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Fresh Fruits */
+.fresh-main{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.fresh-content{
+    width: 100%;
+    height: 100px;
+}
+.fresh-heading{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.fresh-pera{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+.org-main{
+    margin-top: 120px;
+    height: auto;
+    width: 95vw;
+    display:flex ;
+    justify-content: center;
+}
+.text-org{
+    height: auto;
+    width: 55vw;
+    /* background-color: red; */
+
+}
+.text-org h1{
+    font-size: 28px;
+}
+.text-org p{
+    margin: 19px 0px;
+    font-size: 20px;
+    font-style: italic;
+    width: 75%;
+}
+.text-org button{
+    height: 44px;
+    width: 123px;
+    margin: 22px 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.img-org{
+    height: auto;
+    width: 28vw;
+    /* background-color: yellow; */
+
+}
+.img-org img{
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+
+/* grapes  */
+
+.grp-main{
+    margin-top: 120px;
+    height: auto;
+    width: 95vw;
+    display:flex ;
+    justify-content: center;
+}
+.text-grp{
+    height: auto;
+    width: 55vw;
+    /* background-color: red; */
+
+}
+.text-grp h1{
+    font-size: 28px;
+}
+.text-grp p{
+    margin: 19px 0px;
+    font-size: 20px;
+    font-style: italic;
+    width: 75%;
+}
+.text-grp button{
+    height: 44px;
+    width: 123px;
+    margin: 22px 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.img-grp{
+    height: auto;
+    width: 28vw;
+    /* background-color: yellow; */
+
+}
+.img-grp img{
+    padding: 20px;
+    height: auto;
+    width: 52%;
+}
+
+/* For Guava */
+.guv-main{
+    margin-top: 120px;
+    height: auto;
+    width: 95vw;
+    display:flex ;
+    justify-content: center;
+}
+.text-guv{
+    height: auto;
+    width: 55vw;
+    /* background-color: red; */
+
+}
+.text-guv h1{
+    font-size: 28px;
+}
+.text-guv p{
+    margin: 19px 0px;
+    font-size: 20px;
+    font-style: italic;
+    width: 75%;
+}
+.text-guv button{
+    height: 44px;
+    width: 123px;
+    margin: 22px 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.img-guv{
+    height: auto;
+    width: 28vw;
+    /* background-color: yellow; */
+
+}
+.img-guv img{
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+/* testy div css */
+.tasty-main{
+    height: 70vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-image: url(images/tasty-image.png);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.tasty-main h1{
+    font-size: 20vh;
+    color: white; 
+}
+/* Testimonial css */
+.testimonial-main{
+    margin-top: 10vh;
+}
+.testi-heading{
+    text-align: center;
+}
+.testi-pera{
+ text-align: center;
+ font-size: 3vh;
+ margin-top: 3vh;
+}
+.testy-img{
+
+    display: grid;
+    justify-items: center;
+}
+.testy-img img{
+ align-items: center;
+}
+.testy-img h3{
+    font-size: 80px;
+}
+.testy-img button{
+    height: 50px;
+    width: 80px;
+    background-color: rgba(255, 68, 0, 0.904);
+    border: none;
+    margin: 10px 0px;
+}                                                             
+.testy-img p{
+ width: 80%;
+ font-size: 24px;
+ text-align: justify;
+ margin: 20px;
+}
+/* Conect Css */
+.contect-main{
+    height: auto;
+    width: auto;
+    margin-left: 20vh;
+    /* background-image: url(images/orange-dish.png);
+    background-repeat: no-repeat;
+   
+    background-position: right; */
+}
+.cont-input{
+    width: 70%;
+}
+.cont-heading{
+    font-size: 8vh;
+}
+.name input{
+    width: 120vh;
+    height: 8vh;
+    margin: 30px 0px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.phonenumber  input{
+    width: 120vh;
+    height: 8vh;
+    margin: 30px 0px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.email input{
+    width: 120vh;
+    height: 8vh;
+    margin: 30px 0px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.message input{
+    width: 120vh;
+    height: 8vh;
+    margin: 30px 0px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.cont-btn{
+    margin: 0px;
+}
+.cont-btn button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(255, 68, 0);
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.map{
+    width: 100%;
+    margin-top: 50px;
+}
+.map iframe{
+    height: 400px;
+    width: 100%;
+} 
+/* Footer Css Start */
+footer{
+    height: 350px;
+    width: 100%;
+}
+.footer-main{
+    margin-left: 75px;
+    margin-top: 80px;
+    display: flex;
+}
+.fruit{ 
+    margin-left: 100px;
+}
+.fruit h3{
+    font-size: 30px;
+}
+.fruit-ul{
+
+}
+.fruit-li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.fruit-li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  
+}
+/* Servics css */
+.foot-services{
+    margin-left: 100px;
+}
+.foot-services h3{
+font-size: 30px;
+}
+.services-ul{
+
+}
+.services-li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.services-li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* list css */
+.foot-list{
+    margin-left: 100px;
+}
+.foot-list h3{
+font-size: 30px;
+}
+.list-ul{
+   
+}
+.list-li{
+list-style: none;
+padding: 10px 0px;
+}
+.list-li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+/* follow-us CSS */
+.follow-us{ 
+ margin-left: 100px;
+}
+.follow-us h3{
+    font-size: 30px;
+}
+.foot-icon{
+
+}
+.follow-us h5{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.foot-icon{
+
+}
+.foot-icon Img{
+    margin-top: 15px;
+}
+.subscribe{
+
+}
+.subscribe input{
+    height: 5vh;
+    width: 45vh;
+    margin-top: 15px;
+}
+.subscribe button{
+    height: 50px;
+    width: 150px;
+    display: grid;
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.copy-righ{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(173, 168, 161);
+}
+.copy-text{
+    text-align: center;
+}
+.copy-text a{
+    text-decoration: none;
+}
+
+
